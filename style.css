@@ -231,6 +231,78 @@ body{
   margin-left: -30px;
 
 }
+/* BMI chart style */
+.bmi-calculator-container{
+  width: 1250px;
+  height: 400px;
+  background-color: rgba(34, 34, 34, 1);
+}
+.bmi-heading{
+  width: 670px;
+  margin: 80px auto;
+
+}
+.bmi-title{
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: left;
+  margin-left: 100px;
+}
+.bmi-details{
+  text-align: left;
+  margin-left: 100px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 14px;
+  
+}
+.bmi-calculator-chart{
+  width: 440px;
+  margin-left: 100px;
+
+}
+.bmi-calculator-title{
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  color: rgba(255, 255, 255, 0.5);
+   margin-right: 20px;
+}
+td,th{
+  border: 0.2px solid rgba(255, 255, 255, 0.5);
+  padding: 10px;
+}
+.calculate-bmi{
+  width: 500px;
+  margin: 0 auto;
+}
+.calculation-details{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+input[type=text], select {
+  width: 40%;
+  padding: 12px 15px;
+  margin: 8px 0;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+#sex{
+  color: white;
+}
+::placeholder{
+  color: white;
+}
+#activity{
+  width: 81%;
+  color: white;
+  margin-bottom: 50px;
+}
+
 
   /* media query for small device */
   @media screen  and  (max-width: 576px){
@@ -359,6 +431,37 @@ body{
       margin-left: -30px;
     
     }
-    
+    .bmi-calculator-container{
+      flex-direction: column;
+      height: 750px;
+      width: 500px;
+    }
+    .bmi-title{
+      font-size: 1.3rem;
+      margin-left: 10px;
+    }
+    .bmi-details{
+      margin-left: 10px;
+      font-size: 12px;
+      word-wrap: inherit;
+    }
+    .bmi-calculator-title{
+      font-size: 1.2rem;
+      margin-left: -85px;
+    }
+    table{
+      margin-left: -80px;
+      width: 85%;
+      font-size: 12px;
+      height: 90%;
+    }
+    .calculate-bmi{
+      width: 400px;
+      height: 370px;
+    }
+    .bmi-calculator-title{
+      font-size: 1rem;
+      margin-left: 0px;
+    }
 
   }
