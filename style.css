@@ -342,7 +342,63 @@ input[type=text], select {
   font-size: 0.8rem;
 
 }
+/* Footer styles */
+footer{
+  width: 1254px;
+  height: 420px;
+  margin-top: 370px;
+  display: grid;
+  grid-template-columns: 450px 250px 250px;
+  grid-gap: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-left{
+  width: 400px;
+  margin-left: 140px;
+  margin-top: 30px;
+}
+.footer-title{
+  color: rgba(230, 83, 60, 1);
+  font-size: 3rem;
+  font-style: italic;
+}
+.footer-description{
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.5);
+}
+.footer-middle{
+  width: 250px;
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.footer-middle h3{
+  margin-left: 35px;
+}
+ul li{
+  list-style: none;
+  margin-top: 15px;
+}
+ul li a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
 
+.copyright{
+  width: 960px;
+
+  margin:0  130px;
+  color: rgba(3, 0, 0, 0.082);
+
+}
+.copy-text{
+  margin-top: 20px;
+  margin-left: 370px;
+  height: 30px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-bottom: 10px;
+
+}
 
   /* media query for small device */
   @media screen  and  (max-width: 576px){
