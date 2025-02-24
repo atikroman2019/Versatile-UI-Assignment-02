@@ -530,7 +530,7 @@ ul li a{
     .bmi-calculator-container{
       flex-direction: column;
       height: 750px;
-      width: 500px;
+      width: 470px;
     }
     .bmi-title{
       font-size: 1.3rem;
@@ -594,5 +594,51 @@ ul li a{
       font-size: 0.8rem;
     
     }
+    footer{
+      width: 480px;
+      height: 1000px;
+     transform: translate(-10px, 1200px);
+      grid-template-columns: repeat(1, 300px);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    .footer-left{
+      width: 350px;
+      margin-left: 40px;
+      margin-top: 30px;
+    }
+    .footer-title{
+      color: rgba(230, 83, 60, 1);
+      font-size: 2.5rem;
+      font-style: italic;
+    }
+    .footer-description{
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.5);
+    }
+    .footer-middle{
+      width: 250px;
+      margin-top: -10px;
+      margin-left: 10px;
+    }
+    .footer-middle h3{
+      margin-left: 35px;
+    }
+    .copyright{
+      width: 360px;
+      margin-left: 40px;
+      color: rgba(3, 0, 0, 0.082);
+    
+    }
+    .copy-text{
+      margin-left: 80px;
+      width: 200px;
+      margin-top: 20px;
+      height: 60px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.5);
+      margin-bottom: 10px;
+    
+    }
+
     
   }
